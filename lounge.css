@@ -5,6 +5,11 @@ body {
   margin: 10px 40px 10px 40px;
   width: 700px;
 }
+#elixirs {
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+}
 
 h1, h2 {
 	color: black;
