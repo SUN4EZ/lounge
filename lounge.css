@@ -5,11 +5,6 @@ body {
   margin: 10px 40px 10px 40px;
   width: 700px;
 }
-#elixirs {
-	border-width: thin;
-	border-style: solid;
-	border-color: #007e7e;
-}
 
 h1, h2 {
 	color: black;
@@ -48,6 +43,24 @@ em {
 	background-position: top left;
 }
 
+#elixirs {
+	border: thin solid #007e7e;
+	width: 200px;
+	padding: 0px 20px 20px 20px;
+	margin-left: 20px;
+	text-align: center;
+	background: white url(images/cocktail.gif) repeat-x;
+	line-height: 1;
+}
+
+#elixirs h2 {
+	color: black;
+}
+
+#elixirs h3 {
+	color: #d12c47;
+}
+
 p.greentea {
 	color: green;
 }
@@ -58,4 +71,11 @@ p.raspberry {
 
 p.blueberry {
 	color: purple;
+}
+
+#footer {
+	font-size: 50%;
+	text-align: center;
+	line-height: normal;
+	margin-top: 30px;
 }
