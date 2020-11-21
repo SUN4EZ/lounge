@@ -51,6 +51,7 @@ em {
 	text-align: center;
 	background: white url(images/cocktail.gif) repeat-x;
 	line-height: 1;
+	float: right;
 }
 
 #elixirs h2 {
